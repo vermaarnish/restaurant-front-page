@@ -1,2 +1,2 @@
 It shows restuarant's welcome page.
-It has been made by using html ans css.
+It has been made by using HTML and CSS.
