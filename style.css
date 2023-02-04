@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+  }
+body
+{  
+   width: 100%;
+   height: 100%;
+   background-image:url("assets/barcel.png");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+.back-image
+{
+    width: fit-content;
+}
+a
+{
+    text-decoration: none;
+}
+.nav-content,.nav-button
+{
+    display: flex;
+  align-items: center;
+  gap: 63px;
+  list-style: none;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffc233;
+}
+.logo,.nav-button
+{
+    cursor: pointer;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px 0 60px;
+    margin-top: 55px;
+}
+section{
+    height: 65vh;
+    text-align: center;
+}
+.intro-line
+{
+    font-family: "Dela Gothic One", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 110px;
+    /* or 110% */
+    color: #ffc233;
+}
+.menu-button
+{  
+    padding: 13px;
+    background: #ff505f;
+    color: #ffffff;
+    cursor: pointer;
+    border: 0px;
+    margin-top: 14px;
+    font-size: 20px;
+}
+.nav-btn
+{
+    padding: 12px 40px;
+    background-color: #ff505f;
+    border: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+}
+footer
+{
+    display: flex;
+    justify-content: flex-end;
+    bottom: 20px;
+}
